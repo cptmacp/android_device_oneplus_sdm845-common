@@ -58,6 +58,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Camera
 PRODUCT_PACKAGES += \
     Snap
